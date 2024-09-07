@@ -1,0 +1,75 @@
+header{
+    position: fixed;
+    width: 100%;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 10px 4%;
+    transition: all .50s ease;
+    background: #ffffff;
+    box-shadow: 0 0 5px #EBE3CC;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.navbar a{
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .20s ease;
+}
+
+.home {
+    display: flex;
+    flex-direction: column; /* Coloca el logo y el texto uno debajo del otro */
+    align-items: center; /* Alinea el logo y el texto al centro horizontal */
+    text-align: center;
+}
+
+.logo {
+    width: 150px; /* Ajusta el tamaño del logo */
+    height: auto;
+}
+
+.texto {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.descventajas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenedor-precios {
+    display: flex;
+    justify-content: center; /* Coloca los cuadros uno al lado del otro */
+    gap: 20px; /* Espacio entre los cuadros */
+}
+
+.precio {
+    font-size: 12px;
+    color: #333;
+    padding: 20px; /* Espacio dentro del cuadro */
+    border: 2px solid #333; /* Borde alrededor de cada palabra */
+    text-align: center; /* Centra el texto dentro del cuadro */
+    width: 120px; /* Ancho del cuadro */
+    height: 120px; /* Alto del cuadro */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el texto */
+    align-items: center; /* Centra verticalmente el texto */
+}
