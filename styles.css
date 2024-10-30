@@ -12,7 +12,7 @@ body {
 :root{
     --bg-color: #ffffff;
     --text-color: #000000;
-    --main-color: hsl(29, 100%, 50%);
+    --main-color: #B1375B;
 }
 
 body{
@@ -296,7 +296,6 @@ a.discover-button:hover {
 
 .component4{
     display: flex;
-    align-items: left;
     position: absolute;
     top: 158%;
     transform: scaleX(-1);
@@ -357,7 +356,7 @@ a.discover-button:hover {
 }
 
 .classic {
-    background-color: #ff840199;
+    background-color: #B1375B;
     color: #000000;
 }
 
@@ -367,7 +366,7 @@ a.discover-button:hover {
 }
 
 .business {
-    background-color: #ff840199;
+    background-color: #B1375B;
     color: #000000;
 }
 
@@ -386,7 +385,7 @@ a.discover-button:hover {
 
 /*----------Reviews-------------------*/
 h3 {
-    color: #AA67F2;
+    color: #B1375B;
     font-size: x-large;
 }
 
@@ -442,7 +441,7 @@ footer {
 }
 
 .subscribe-input button {
-    background-color: #FA7436;
+    background-color: #4D617D;
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -587,7 +586,7 @@ a:hover {
 
 .container {
     max-width: 600px;
-    background: #FF8601;
+    background: #B1375B;
     padding: 28px calc(28px + 10px + 16px) 28px 28px;
     border-radius: 10px;
     position: relative;
