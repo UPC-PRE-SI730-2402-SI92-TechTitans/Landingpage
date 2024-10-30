@@ -5,152 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FinanceGuard</title>
+    <link rel="icon" href="images/FinanceGuardLogo.ico">
     <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
+    <style>
+        #subheading {
+            color: green;
+        }
+    </style>
 </head>
 <body>
+
 <header>
+    <a href="#" class="logo"><img src="images/FinanceGuardLogo.ico" alt="Logo-PocketPartners"><span></span></a>
+
     <ul class="navbar">
-        <li><a href="#inicio" class="btn-nav">Inicio</a></li>
-        <li><a href="#nosotros" class="btn-nav">Nosotros</a></li>
-        <li><a href="#contacto" class="btn-nav">Contacto</a></li>
+        <li><a href="#services" class="btn-nav">Servicios</a></li>
+        <li><a href="#plans" class="btn-nav">Planes</a></li>
+        <li><a href="#reviews" class="btn-nav">Reseñas</a></li>
+        <li><a href="#contact" class="btn-nav">Contacto</a></li>
     </ul>
+
+    <div class="main">
+        <a href="https://finance-guard.web.app/" class="usser">Iniciar Sesión</a>
+        <a href="https://finance-guard.web.app/sign-up">Registrarse</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
 </header>
 
-<section class="inicio" id="inicio">
-    <div class="logo">
-        <img src="images/home_logo.png" alt="Imagen Principal">
-    </div>
-    <div class="texto">
-        <p>¿Qué es FinanceGuard?</p>
-        <p>¿Qué es FinanceGuard?</p>
-    </div>
-    <div class="ventajas">
-        <p>Ventajas</p>
-        <div class="descventajas">
-            <p>¿Qué es FinanceGuard?</p>
-            <p>¿Qué es FinanceGuard?</p>
-            <p>¿Qué es FinanceGuard?</p>
+<section class="home" id="home">
+    <div class="left-content">
+        <h1>Menos estrés a la hora de compartir gastos</h1>
+        <h1 id="subheading">en viajes</h1>
+        <div class="item-container">
+            <div class="item" onclick="showImage('plane', 'en viajes', 'green')">
+                ✈ <span></span>
+            </div>
+            <div class="item" onclick="showImage('hotel', 'con compañeros de piso', 'blue')">
+                🏠 <span></span>
+            </div>
+            <div class="item" onclick="showImage('heart', 'con tu pareja o amigos', 'red')">
+                ❤ <span></span>
+            </div>
+            <div class="item" onclick="showImage('all', 'con cualquiera.', 'black')">
+                 * <span></span>
+            </div>
         </div>
-        <p>Suscripción</p>
-        <div class="contenedor-precios">
-            <div class="precio">Precio 1</div>
-            <div class="precio">Precio 2</div>
-            <div class="precio">Precio 3</div>
-        </div>
+        <p>Lleva un registro de los gastos y saldos compartidos con compañeros de piso, de viaje, grupos, amigos y familia.</p>
     </div>
+    <div class="image-display">
+            <img id="displayImage" src="images/plane.jpg" alt="Selected">
+   </div>
 </section>
 
-<section class="nosotros" id="inicio">
-    <div class="quienes">
-        <h1>¿Quiénes somos?</h1>
-        <p>
-            TechTitans es una startup orientada en la tecnología con el objetivo de mejorar la gestión de finanzas personales y empresariales. Asimismo, a través de FinanceGuard
-            se busca empoderar a los usuarios, tanto individuales como corporativos, a tomar el control de su bienestar financiero,
-            brindándoles las herramientas necesarias para seguir sus gastos, establecer metas financieras y ajustar sus presupuestos en función de sus objetivos económicos.
-        </p>
-    </div>
-    <div class="contenedor">
-        <div class="mision">
-            <h2>Misión</h2>
-            <p>
-                En FinanceGuard, nuestra misión es capacitar a individuos y empresas para que tomen las riendas de su bienestar financiero mediante una administración precisa, accesible y fácil de usar.
-                Nos comprometemos a ofrecer soluciones innovadoras que simplifiquen el monitoreo, la planificación y la optimización de los recursos financieros, con el propósito de fomentar una mayor seguridad económica y ayudar a
-                nuestros usuarios a cumplir sus objetivos financieros con certeza.
-            </p>
-        </div>
-        <div class="vision">
-            <h2>Visión</h2>
-            <p>
-                Aspiramos a convertirnos en la plataforma de referencia en la gestión financiera personal y empresarial, reconocida por nuestra capacidad de revolucionar la manera en que las personas y organizaciones administran sus finanzas.
-                Nuestro objetivo es construir un futuro donde la claridad financiera y la educación económica estén al alcance de todos, contribuyendo al desarrollo económico y al bienestar integral de nuestros usuarios.
-            </p>
-        </div>
-    </div>
-</section>
-
-<section class="nosotros" id="nosotros">
-    <div class="quienes">
-        <h1>¿Quiénes somos?</h1>
-        <p>
-            TechTitans es una startup orientada en la tecnología con el objetivo de mejorar la gestión de finanzas personales y empresariales. Asimismo, a través de FinanceGuard
-            se busca empoderar a los usuarios, tanto individuales como corporativos, a tomar el control de su bienestar financiero,
-            brindándoles las herramientas necesarias para seguir sus gastos, establecer metas financieras y ajustar sus presupuestos en función de sus objetivos económicos.
-        </p>
-    </div>
-    <div class="contenedor">
-        <div class="mision">
-            <h2>Misión</h2>
-            <p>
-                En FinanceGuard, nuestra misión es capacitar a individuos y empresas para que tomen las riendas de su bienestar financiero mediante una administración precisa, accesible y fácil de usar.
-                Nos comprometemos a ofrecer soluciones innovadoras que simplifiquen el monitoreo, la planificación y la optimización de los recursos financieros, con el propósito de fomentar una mayor seguridad económica y ayudar a
-                nuestros usuarios a cumplir sus objetivos financieros con certeza.
-            </p>
-        </div>
-        <div class="vision">
-            <h2>Visión</h2>
-            <p>
-                Aspiramos a convertirnos en la plataforma de referencia en la gestión financiera personal y empresarial, reconocida por nuestra capacidad de revolucionar la manera en que las personas y organizaciones administran sus finanzas.
-                Nuestro objetivo es construir un futuro donde la claridad financiera y la educación económica estén al alcance de todos, contribuyendo al desarrollo económico y al bienestar integral de nuestros usuarios.
-            </p>
-        </div>
-    </div>
-</section>
-
-<footer class="contacto" id="contacto">
-    <div class="subscribe">
-        <div class="subscribe-content">
-            <h2>¡Regístrate ahora y simplifica tus finanzas compartidas con FinanceGuard!</h2>
-            <div class="subscribe-input">
-                <img src="images/mail-icon.svg" alt="">
-                <input type="email" placeholder="¡Coloca tu correo electrónico!">
-                <button>Subscribe</button>
-            </div>
-        </div>
-    </div>
-    <div class="footer-content">
-        <div class="footer-info-social">
-            <p>
-                Gestiona tus finanzas compartidas de manera fácil y transparente
-            </p>
-            <div class="social">
-                <a href="#"><i class="ri-facebook-fill"></i></a>
-                <a href="#"><i class="ri-instagram-fill"></i></a>
-                <a href="#"><i class="ri-twitter-fill"></i></a>
-            </div>
-        </div>
-        <div class="footer-acc">
-            <div class="company">
-                <h3>Company</h3>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Logistic</a></li>
-                    <li><a href="#">Privacy & Policy</a></li>
-                </ul>
-            </div>
-            <div class="contact">
-                <h3>Contact</h3>
-                <ul>
-                    <li><a href="#">Help/FAQ</a></li>
-                    <li><a href="#">Press</a></li>
-                    <li><a href="#">Affiliates</a></li>
-                </ul>
-            </div>
-            <div class="more">
-                <h3>More</h3>
-                <ul>
-                    <li><a href="#">Press Centre</a></li>
-                    <li><a href="#">Our Blog</a></li>
-                    <li><a href="#">Low fare tips</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <p>Copyright, FinanceGuard 2024.Todos los derechos reservados</p>
-        <a href="#">Términos & Condiciones</a>
-    </div>
-</footer>
-
+<!----Java script-->
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
