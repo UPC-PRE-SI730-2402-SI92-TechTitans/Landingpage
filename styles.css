@@ -323,7 +323,7 @@ a.discover-button:hover {
 }
 
 .plans h2 {
-    color: #444;
+    color: #B1375B;
     padding-bottom: 50px;
     font-weight: lighter;
     font-size: x-large;
@@ -386,7 +386,7 @@ a.discover-button:hover {
 
 /*----------Reviews-------------------*/
 h3 {
-    color: #AA67F2;
+    color: #B1375B;
     font-size: x-large;
 }
 
@@ -519,7 +519,7 @@ a:hover {
 
 /*----------Flip Cards--------------------*/
 .Plans h2 {
-    text-align: center; /* Centra horizontalmente el encabezado */
+    text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
 }
@@ -529,7 +529,7 @@ a:hover {
     display: flex;
     grid-gap: 80px;
     padding-bottom: 60px;
-    justify-content: center; /* Centra horizontalmente los elementos */
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -561,12 +561,12 @@ a:hover {
     background-size: cover;
 }
 .flip-card-back {
-    font-size: 1.25rem;
+    font-size: 1rem;
     text-align: center;
     display: grid;
     place-items: center;
     padding: 32px;
-    background-color: #beb1cf;
+    background-color: #4D617D;
     transform: rotateY(180deg);
 }
 .flip-card:hover .flip-card-inner {
