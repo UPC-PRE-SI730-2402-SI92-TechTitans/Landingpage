@@ -277,6 +277,10 @@ a.discover-button:hover {
 .features {
     display: flex;
     justify-content: space-around;
+    padding: 20px;
+    padding-bottom: 70px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .feature {
@@ -296,7 +300,6 @@ a.discover-button:hover {
 
 .component4{
     display: flex;
-    align-items: left;
     position: absolute;
     top: 158%;
     transform: scaleX(-1);
