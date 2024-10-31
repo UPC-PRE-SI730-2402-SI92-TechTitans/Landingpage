@@ -408,7 +408,6 @@ footer {
     width: 65%;
     margin: 0 auto;
     border-radius: 10px;
-    background-image: url(/images/footer_bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat    ;
@@ -587,7 +586,7 @@ a:hover {
 
 .container {
     max-width: 600px;
-    background: #FF8601;
+    background: #4D617D;
     padding: 28px calc(28px + 10px + 16px) 28px 28px;
     border-radius: 10px;
     position: relative;
